@@ -57,7 +57,5 @@ Wang, Sheng, Weng, et al. IJMS, Vol. 16, Pages 17315-17330: DeepCNF-D: Predictin
 Iakoucheva LM, Radivojac P, Brown CJ, O'Connor TR, Sikes JG, Obradovic Z, Dunker AK. Intrinsic disorder and protein phosphorylation. Nucleic Acids Research, 2004, 32 (3), 1037-1049.
 
 ## Contact us
-sp_he@webmail.hzau.edu.cn
-xxxxx
-xxxxx
-xxxxx
+huxuehai@mail.hzau.edu.cn  
+sp_he@webmail.hzau.edu.cn  
