@@ -39,7 +39,7 @@ IMWRNAKRQSDRFYDEDVFINGEGLEPEQDTRGVDNAHMVTNHHALRSRDNIYEYRDSPSTKTLASKAHTDTTSLRSPSS
 ```
 
 ### Output File
-The first line is sequence name.and the second line is predicted score.  
+The first line is sequence name and the second line is predicted score.  
 The time-consuming of getting the prediction results is related to the length of the input protein sequence.  
 The longer the length is, the longer the time-consuming is.  
 The output file seems like below:
