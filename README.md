@@ -21,14 +21,14 @@ Download and install Anaconda 3.7, and import acPDRP.py into the installed Anaco
 
 
 ### Using
-You can python the script called predict_test.py and the input file is your protein sequence the output files are the predicted results.
+You can python the script called predict_test.py and the input file is your protein sequence the output file are the predicted results.
 
 ```
-python predict_test.py <Input File> <Output Files>
+python predict_test.py <Input File> <Output File>
 ```
 
 
-### Input Files
+### Input File
 The input file must be a protein sequence and format in FASTA.  
 In view of the protein sequence requirements of DISPHOS1.3 for protein phosphorylation site prediction,  
 the minimal length of the protein sequence is limited to 25 residues and the maximal one is limited to 5000 residues.  
@@ -38,7 +38,7 @@ The FASTA sequence seems like below:
 IMWRNAKRQSDRFYDEDVFINGEGLEPEQDTRGVDNAHMVTNHHALRSRDNIYEYRDSPSTKTLASKAHTDTTSLRSPSSLAMTQKSSSQASLKSGISLKETNGHLVKQSERAATPRSQQNGSIAKVASPPVEEKRLLQPLSSTPVTQLQAEPAKRVPTAASVSGSSRSTTPVPSARSTTTHTTTATLSSQPAAQPRRTHLVEGVPQTSVHHHHHH
 ```
 
-### Output Files
+### Output File
 The first line is sequence name.and the second line is predicted score.  
 The time-consuming of getting the prediction results is related to the length of the input protein sequence.  
 The longer the length is, the longer the time-consuming is.  
@@ -46,8 +46,7 @@ The output file seems like below:
 
 ```
 >test_sequence
-0.0230,00554
-
+0.97, 0.985, 0.9833, 0.98, 0.98, 0.9725, 0.97, 0.96, 0.9625, 0.965, 0.965, 0.965, 0.97, 0.975, 0.9825, 0.9875, 0.96, 0.9425, 0.9425, 0.95, 0.9775, 0.9825, 0.98, 0.975, 0.965, 0.975, 0.9775, 0.9875, 0.995, 0.985, 0.975, 0.975, 0.975, 0.98, 0.98, 0.9725, 0.97, 0.965, 0.9725, 0.9775, 0.98, 0.99, 0.9825, 0.95, 0.95, 0.93, 0.93, 0.9625, 0.9625, 0.975, 0.965, 0.9475, 0.94, 0.935, 0.95, 0.965, 0.9625, 0.975, 0.9725, 0.9725, 0.9825, 0.97, 0.945, 0.945, 0.94, 0.95, 0.9725, 0.9675, 0.9725, 0.965, 0.9625, 0.9625, 0.95, 0.945, 0.9425, 0.9375, 0.945, 0.9575, 0.9725, 0.96, 0.955, 0.9575, 0.955, 0.9725, 0.9825, 0.985, 0.9825, 0.9925, 0.99, 0.9775, 0.9825, 0.9675, 0.955, 0.9575, 0.94, 0.92, 0.93, 0.94, 0.955, 0.9875, 0.985, 0.975, 0.97, 0.9575, 0.95, 0.9525, 0.955, 0.955, 0.9675, 0.97, 0.9725, 0.98, 0.9775, 0.975, 0.975, 0.9775, 0.9825, 0.99, 0.99, 0.9875, 0.9675, 0.945, 0.935, 0.94, 0.9525, 0.965, 0.9675, 0.965, 0.965, 0.965, 0.9675, 0.9675, 0.9675, 0.9775, 0.9775, 0.97, 0.9725, 0.94, 0.9425, 0.9525, 0.945, 0.97, 0.94, 0.93, 0.9375, 0.92, 0.9525, 0.95, 0.955, 0.9675, 0.94, 0.9425, 0.9425, 0.95, 0.965, 0.9675, 0.96, 0.9625, 0.975, 0.96, 0.9275, 0.9, 0.84, 0.8575, 0.89, 0.915, 0.9675, 0.9625, 0.9675, 0.96, 0.9675, 0.9425, 0.94, 0.95, 0.94, 0.975, 0.965, 0.9575, 0.965, 0.965, 0.975, 0.9825, 0.98, 0.975, 0.96, 0.94, 0.945, 0.945, 0.965, 0.9775, 0.9775, 0.9775, 0.98, 0.9825, 0.98, 0.985, 0.9775, 0.9825, 0.97, 0.96, 0.9575, 0.8925, 0.8775, 0.8775, 0.885, 0.945, 0.97, 0.965, 0.965, 0.9675, 0.9725, 0.985, 0.985, 0.9867, 0.985, 0.99
 ```
 
 ## References
