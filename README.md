@@ -2,12 +2,13 @@
 acPDRP, a predictor of multiple features in protein disordered regions ,was trained by Uniprot90 and tested by CASP9 and CASP10 datasets.
 The results of four evaluation indexes including Precision, Bacc, MCC and AUC in two datasets of CASP9 and CASP10 are better than DeepCNF-D and the related methods mentioned.  
   
+  
 ![image](https://github.com/ShoupengHe314/Depository/blob/master/Pictures/ac_p1.jpg)
 
 
 
 ## News
-- 18/10/2019: Upload the script and the predicted model for the first time and test if it is available
+- 20/10/2019: Upload the script and the predicted model for the first time and test if it is available
 
 
 ## Get started
