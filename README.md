@@ -17,7 +17,7 @@ The results of four evaluation indexes including Precision, Bacc, MCC and AUC in
 
 
 ### Install
-Download and install Anaconda 3.7, and import acpdrp.py into the installed Anaconda path:Anaconda3\Lib\site-packages.
+Download and install Anaconda 3.7, and import acPDRP.py into the installed Anaconda path:Anaconda3\Lib\site-packages.
 
 
 ### Using
