@@ -1,5 +1,5 @@
 # ***acPDRP***
-***acPDRP***, a predictor of multiple features in protein disordered regions ,was trained by Uniprot90 and tested by CASP9 and CASP10 datasets.
+***acPDRP***, a predictor of multiple features in protein disordered regions ,was trained and tested by Uniprot90 and evaluated by CASP9 and CASP10 datasets.
 The results of four evaluation indexes including **Precision**, **Bacc**, **MCC** and **AUC** in two datasets of CASP9 and CASP10 are better than ***[DeepCNF-D](https://www.mdpi.com/1422-0067/16/8/17315/htm)*** and the related methods mentioned.  
   
   
@@ -32,7 +32,7 @@ python predict_test.py <Input File> <Output File>
 
 
 ### Input File
-The input file must be a protein sequence and format in FASTA. In view of the protein sequence requirements of ***[DISPHOS1.3](http://www.dabi.temple.edu/disphos/)*** for protein phosphorylation site prediction, the minimal length of the protein sequence is limited to **25** residues and the maximal one is limited to **5000** residues.  
+The input file must be a protein sequence and format in FASTA. In view of the protein sequence requirements of ***[DISPHOS 1.3](http://www.dabi.temple.edu/disphos/)*** for protein phosphorylation site prediction, the minimal length of the protein sequence is limited to **25** residues and the maximal one is limited to **5000** residues.  
 The FASTA sequence seems like below:
 ```
 >test_sequence
