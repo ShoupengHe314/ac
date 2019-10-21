@@ -1,6 +1,6 @@
 # acPDRP
-**acPDRP**, a predictor of multiple features in protein disordered regions ,was trained by Uniprot90 and tested by CASP9 and CASP10 datasets.
-The results of four evaluation indexes including **Precision**, **Bacc**, **MCC** and **AUC** in two datasets of CASP9 and CASP10 are better than **[DeepCNF-D](https://www.mdpi.com/1422-0067/16/8/17315/htm)** and the related methods mentioned.  
+***acPDRP***, a predictor of multiple features in protein disordered regions ,was trained by Uniprot90 and tested by CASP9 and CASP10 datasets.
+The results of four evaluation indexes including *Precision*, *Bacc*, *MCC* and *AUC* in two datasets of CASP9 and CASP10 are better than **[DeepCNF-D](https://www.mdpi.com/1422-0067/16/8/17315/htm)** and the related methods mentioned.  
   
   
 ![image](https://github.com/ShoupengHe314/Depository/blob/master/Pictures/ac_p1.jpg)
@@ -39,7 +39,7 @@ The FASTA sequence seems like below:
 IMWRNAKRQSDRFYDEDVFINGEGLEPEQDTRGVDNAHMVTNHHALRSRDNIYEYRDSPSTKTLASKAHTDTTSLRSPSSLAMTQKSSSQASLKSGISLKETNGHLVKQSERAATPRSQQNGSIAKVASPPVEEKRLLQPLSSTPVTQLQAEPAKRVPTAASVSGSSRSTTPVPSARSTTTHTTTATLSSQPAAQPRRTHLVEGVPQTSVHHHHHH
 ```
 
-### Output File
+### Output Files
 The first line is sequence name and the second line is predicted result. You can get the original predicted score or set the threshold to get the intuitive predicted label.
 The time-consuming of getting the prediction results is related to the length of the input protein sequence. The longer the length is, the longer the time-consuming is.  
 The output file seems like below:
@@ -63,5 +63,5 @@ Wang, Sheng, Weng, et al. IJMS, Vol. 16, Pages 17315-17330: DeepCNF-D: Predictin
 Iakoucheva LM, Radivojac P, Brown CJ, O'Connor TR, Sikes JG, Obradovic Z, Dunker AK. Intrinsic disorder and protein phosphorylation. Nucleic Acids Research, 2004, 32 (3), 1037-1049.
 
 ## Contact us
-huxuehai@mail.hzau.edu.cn  
-sp_he@webmail.hzau.edu.cn  
+huxuehai@mail.hzau.edu.cn(E-mail can be in Chinese)  
+sp_he@webmail.hzau.edu.cn(E-mail can be in Chinese)  
