@@ -59,7 +59,7 @@ The output file seems like below:
 ## References
 Wu C , Chen J , Liu Y , et al. Improved Prediction of Regulatory Element Using Hybrid Abelian Complexity Features with DNA Sequences[J]. International Journal of Molecular Sciences, 2019, 20(7).
 
-Wang, Sheng, Weng, et al. IJMS, Vol. 16, Pages 17315-17330: DeepCNF-D: Predicting Protein Order/Disorder Regions by Weighted Deep Convolutional Neural Fields[J]. 2015.
+Wang, Sheng, Weng Shunyan, et al. DeepCNF-D: Predicting Protein Order/Disorder Regions by Weighted Deep Convolutional Neural Fields[J].International Journal of Molecular Sciences, 2015, 16(8).
 
 Iakoucheva LM, Radivojac P, Brown CJ, O'Connor TR, Sikes JG, Obradovic Z, Dunker AK. Intrinsic disorder and protein phosphorylation. Nucleic Acids Research, 2004, 32 (3), 1037-1049.
 
