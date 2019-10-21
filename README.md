@@ -21,11 +21,11 @@ The results of four evaluation indexes including **Precision**, **Bacc**, **MCC*
 - [Anaconda 3.7 for Linux](https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh)  
 
 ### Install
-Download and install Anaconda 3.7, and import acPDRP.py into the installed Anaconda path:Anaconda3\Lib\site-packages.
+Download and install Anaconda 3.7 you need, and put *acPDRP.py* into the installed Anaconda path:Anaconda3\Lib\site-packages.
 
 
 ### Using
-You can python the script called predict_test.py and the input file is your protein sequence the output file are the predicted results.
+You can python the script called *predict_test.py* and the input file is your protein sequence the output file are the predicted results.
 
 ```
 python predict_test.py <Input File> <Output File>
