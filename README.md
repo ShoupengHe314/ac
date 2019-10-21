@@ -16,8 +16,9 @@ The results of four evaluation indexes including **Precision**, **Bacc**, **MCC*
 
 ### Environment Requires
 
-- Anaconda 3.7
-
+- [Anaconda 3.7 for Windows](https://repo.anaconda.com/archive/Anaconda3-2019.10-Windows-x86_64.exe)  
+- [Anaconda 3.7 for macOS](https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.pkg)  
+- [Anaconda 3.7 for Linux](https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh)  
 
 ### Install
 Download and install Anaconda 3.7, and import acPDRP.py into the installed Anaconda path:Anaconda3\Lib\site-packages.
