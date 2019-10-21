@@ -1,6 +1,6 @@
 # acPDRP
 ***acPDRP***, a predictor of multiple features in protein disordered regions ,was trained by Uniprot90 and tested by CASP9 and CASP10 datasets.
-The results of four evaluation indexes including *Precision*, *Bacc*, *MCC* and *AUC* in two datasets of CASP9 and CASP10 are better than **[DeepCNF-D](https://www.mdpi.com/1422-0067/16/8/17315/htm)** and the related methods mentioned.  
+The results of four evaluation indexes including **Precision**, **Bacc**, **MCC** and **AUC** in two datasets of CASP9 and CASP10 are better than ***[DeepCNF-D](https://www.mdpi.com/1422-0067/16/8/17315/htm)*** and the related methods mentioned.  
   
   
 ![image](https://github.com/ShoupengHe314/Depository/blob/master/Pictures/ac_p1.jpg)
@@ -32,7 +32,7 @@ python predict_test.py <Input File> <Output File>
 
 
 ### Input File
-The input file must be a protein sequence and format in FASTA. In view of the protein sequence requirements of **[DISPHOS1.3](http://www.dabi.temple.edu/disphos/)** for protein phosphorylation site prediction, the minimal length of the protein sequence is limited to **25** residues and the maximal one is limited to **5000** residues.  
+The input file must be a protein sequence and format in FASTA. In view of the protein sequence requirements of ***[DISPHOS1.3](http://www.dabi.temple.edu/disphos/)*** for protein phosphorylation site prediction, the minimal length of the protein sequence is limited to **25** residues and the maximal one is limited to **5000** residues.  
 The FASTA sequence seems like below:
 ```
 >test_sequence
@@ -63,5 +63,5 @@ Wang, Sheng, Weng, et al. IJMS, Vol. 16, Pages 17315-17330: DeepCNF-D: Predictin
 Iakoucheva LM, Radivojac P, Brown CJ, O'Connor TR, Sikes JG, Obradovic Z, Dunker AK. Intrinsic disorder and protein phosphorylation. Nucleic Acids Research, 2004, 32 (3), 1037-1049.
 
 ## Contact us
-huxuehai@mail.hzau.edu.cn(E-mail can be in Chinese)  
-sp_he@webmail.hzau.edu.cn(E-mail can be in Chinese)  
+huxuehai@mail.hzau.edu.cn (E-mail can be in Chinese)  
+sp_he@webmail.hzau.edu.cn (E-mail can be in Chinese)  
