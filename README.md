@@ -1,6 +1,6 @@
 # ***acPDRP***
-***acPDRP***, a predictor of multiple features in protein disordered regions ,was trained and tested by Uniprot90 and evaluated by CASP9 and CASP10 datasets.
-The results of four evaluation indexes including **Precision**, **Bacc**, **MCC** and **AUC** in two datasets of CASP9 and CASP10 are better than ***[DeepCNF-D](https://www.mdpi.com/1422-0067/16/8/17315/htm)*** and the related methods mentioned.  
+***acPDRP***, a predictor of multiple features in protein disordered regions ,was trained and tested by Uniprot90 and evaluated by CASP9 and CASP10 datasets. [Wu C , Chen J , Liu Y , et al](https://www.mdpi.com/1422-0067/20/7/1704/htm) have improved prediction of regulatory element by abelian complexity features with DNA sequences.
+Now we try to predict intrinsic disordered regions(IDRs) of protein by abelian complexity features. The results of four evaluation indexes including **Precision**, **Bacc**, **MCC** and **AUC** in two datasets of CASP9 and CASP10 are better than ***[DeepCNF-D](https://www.mdpi.com/1422-0067/16/8/17315/htm)*** and the related methods mentioned.  
   
   
 ![image](https://github.com/ShoupengHe314/Depository/blob/master/Pictures/ac_p1.jpg)
